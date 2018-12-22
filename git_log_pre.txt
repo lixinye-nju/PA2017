@@ -1,0 +1,608 @@
+commit 100debc441ebae752403b741c5892eb67486d569
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Jan 31 23:09:20 2018 +0800
+
+    >  testkernel
+    161220070
+    linxinye
+    Linux Debian 4.9.0-5-686-pae #1 SMP Debian 4.9.65-3+deb9u2 (2018-01-04) i686 GNU/Linux
+     23:09:20 up  7:50,  1 user,  load average: 0.59, 0.75, 0.64
+    2dfb3ac4f98722324e28b5952ac380a836e8a353
+
+:100755 100755 1f9b171... f0a904e... M	nemu/nemu
+
+commit 4e69d6c0d6bfc069c9c28ee7e785238d02febc78
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Jan 31 23:09:20 2018 +0800
+
+    >  nemu
+    161220070
+    linxinye
+    Linux Debian 4.9.0-5-686-pae #1 SMP Debian 4.9.65-3+deb9u2 (2018-01-04) i686 GNU/Linux
+     23:09:20 up  7:50,  1 user,  load average: 0.59, 0.75, 0.64
+    ebb33a7335ad60782715fd91d0c92b33d9e49e77
+
+:100644 000000 d4fa6b7... 0000000... D	nemu/src/memory/.memory.c.swp
+:100755 100755 1e3fec4... 7fb64bf... M	nemu/src/memory/memory.c
+
+commit 4b072f292235cb004908a2b7a589ce6e8877a3e0
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Jan 31 23:08:41 2018 +0800
+
+    >  testkernel
+    161220070
+    linxinye
+    Linux Debian 4.9.0-5-686-pae #1 SMP Debian 4.9.65-3+deb9u2 (2018-01-04) i686 GNU/Linux
+     23:08:41 up  7:50,  1 user,  load average: 1.07, 0.84, 0.67
+    fcbc8392a892b84d8ccfd354cc3b35529402c79
+
+:000000 100755 0000000... 5da6d84... A	kernel/kernel
+:000000 100755 0000000... a251918... A	kernel/kernel.img
+:000000 100755 0000000... 1f9b171... A	nemu/nemu
+:000000 100755 0000000... 2eaca06... A	testcase/src/add
+:000000 100755 0000000... a68d388... A	testcase/src/add-longlong
+:000000 100755 0000000... c0ae809... A	testcase/src/bit
+:000000 100755 0000000... aa82c0c... A	testcase/src/bubble-sort
+:000000 100755 0000000... e99ab21... A	testcase/src/echo
+:000000 100755 0000000... 2038c38... A	testcase/src/fact
+:000000 100755 0000000... 5643ee0... A	testcase/src/fib
+:000000 100755 0000000... 4578d03... A	testcase/src/gotbaha
+:000000 100755 0000000... 89feed6... A	testcase/src/hello-inline
+:000000 100755 0000000... 9675162... A	testcase/src/hello-str
+:000000 100755 0000000... 21f11a5... A	testcase/src/if-else
+:000000 100755 0000000... c43d7c3... A	testcase/src/leap-year
+:000000 100755 0000000... ae97dca... A	testcase/src/matrix-mul
+:000000 100755 0000000... a4704c9... A	testcase/src/matrix-mul-small
+:000000 100755 0000000... e3b44f5... A	testcase/src/max
+:000000 100755 0000000... 6bff61e... A	testcase/src/min3
+:000000 100755 0000000... a4303a0... A	testcase/src/mov
+:000000 100755 0000000... 67a5232... A	testcase/src/mov-c
+:000000 100755 0000000... 185ca65... A	testcase/src/mov-cmp
+:000000 100755 0000000... ed962ea... A	testcase/src/mov-jcc
+:000000 100755 0000000... c6efd84... A	testcase/src/movsx
+:000000 100755 0000000... 75da9dd... A	testcase/src/mul-longlong
+:000000 100755 0000000... 988fd52... A	testcase/src/pascal
+:000000 100755 0000000... 8a2c751... A	testcase/src/prime
+:000000 100755 0000000... 64559dd... A	testcase/src/quick-sort
+:000000 100755 0000000... 2dd1f3e... A	testcase/src/select-sort
+:000000 100755 0000000... 3bc3ac3... A	testcase/src/shuixianhua
+:000000 100755 0000000... c89a445... A	testcase/src/string
+:000000 100755 0000000... 58f82d6... A	testcase/src/struct
+:000000 100755 0000000... 50be944... A	testcase/src/sub-longlong
+:000000 100755 0000000... 4cfdfd4... A	testcase/src/sum
+:000000 100755 0000000... f9ed9bf... A	testcase/src/test-float
+:000000 100755 0000000... 9c24ffd... A	testcase/src/wanshu
+
+commit 57072c6c89054c931f32bd8e59ddfb2f03931f16
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Jan 31 23:08:27 2018 +0800
+
+    >  nemu
+    161220070
+    linxinye
+    Linux Debian 4.9.0-5-686-pae #1 SMP Debian 4.9.65-3+deb9u2 (2018-01-04) i686 GNU/Linux
+     23:08:27 up  7:50,  1 user,  load average: 0.19, 0.67, 0.61
+    73b8ce16ff5095e57eff52d94fb219b3c7a690d5
+
+:100755 000000 5da6d84... 0000000... D	kernel/kernel
+:100755 000000 a251918... 0000000... D	kernel/kernel.img
+:100755 000000 1f9b171... 0000000... D	nemu/nemu
+:000000 100644 0000000... d4fa6b7... A	nemu/src/memory/.memory.c.swp
+:100755 000000 2eaca06... 0000000... D	testcase/src/add
+:100755 000000 a68d388... 0000000... D	testcase/src/add-longlong
+:100755 000000 c0ae809... 0000000... D	testcase/src/bit
+:100755 000000 aa82c0c... 0000000... D	testcase/src/bubble-sort
+:100755 000000 e99ab21... 0000000... D	testcase/src/echo
+:100755 000000 2038c38... 0000000... D	testcase/src/fact
+:100755 000000 5643ee0... 0000000... D	testcase/src/fib
+:100755 000000 4578d03... 0000000... D	testcase/src/gotbaha
+:100755 000000 89feed6... 0000000... D	testcase/src/hello-inline
+:100755 000000 9675162... 0000000... D	testcase/src/hello-str
+:100755 000000 21f11a5... 0000000... D	testcase/src/if-else
+:100755 000000 c43d7c3... 0000000... D	testcase/src/leap-year
+:100755 000000 ae97dca... 0000000... D	testcase/src/matrix-mul
+:100755 000000 a4704c9... 0000000... D	testcase/src/matrix-mul-small
+:100755 000000 e3b44f5... 0000000... D	testcase/src/max
+:100755 000000 6bff61e... 0000000... D	testcase/src/min3
+:100755 000000 a4303a0... 0000000... D	testcase/src/mov
+:100755 000000 67a5232... 0000000... D	testcase/src/mov-c
+:100755 000000 185ca65... 0000000... D	testcase/src/mov-cmp
+:100755 000000 ed962ea... 0000000... D	testcase/src/mov-jcc
+:100755 000000 c6efd84... 0000000... D	testcase/src/movsx
+:100755 000000 75da9dd... 0000000... D	testcase/src/mul-longlong
+:100755 000000 988fd52... 0000000... D	testcase/src/pascal
+:100755 000000 8a2c751... 0000000... D	testcase/src/prime
+:100755 000000 64559dd... 0000000... D	testcase/src/quick-sort
+:100755 000000 2dd1f3e... 0000000... D	testcase/src/select-sort
+:100755 000000 3bc3ac3... 0000000... D	testcase/src/shuixianhua
+:100755 000000 c89a445... 0000000... D	testcase/src/string
+:100755 000000 58f82d6... 0000000... D	testcase/src/struct
+:100755 000000 50be944... 0000000... D	testcase/src/sub-longlong
+:100755 000000 4cfdfd4... 0000000... D	testcase/src/sum
+:100755 000000 f9ed9bf... 0000000... D	testcase/src/test-float
+:100755 000000 9c24ffd... 0000000... D	testcase/src/wanshu
+
+commit d0e7b9445060667e546fc485b130c0dd0234d094
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Jan 31 23:07:58 2018 +0800
+
+    >  testkernel
+    161220070
+    linxinye
+    Linux Debian 4.9.0-5-686-pae #1 SMP Debian 4.9.65-3+deb9u2 (2018-01-04) i686 GNU/Linux
+     23:07:58 up  7:49,  1 user,  load average: 0.23, 0.73, 0.63
+    7b4b98236907ccfb8fbfd48e96539cf676ebdab5
+
+:100755 100755 35bd0e6... 1f9b171... M	nemu/nemu
+
+commit f38f7414166833466396b9e1404f299be175b12d
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Jan 31 23:07:58 2018 +0800
+
+    >  nemu
+    161220070
+    linxinye
+    Linux Debian 4.9.0-5-686-pae #1 SMP Debian 4.9.65-3+deb9u2 (2018-01-04) i686 GNU/Linux
+     23:07:58 up  7:49,  1 user,  load average: 0.23, 0.73, 0.63
+    cf9c69286de773d1519a09b48628fa16a60b07
+
+:100644 100644 77f8f0a... 788241c... M	nemu/src/memory/cache.c
+
+commit 5f52e3ade855c754184195376d89d4d370c03a90
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Jan 31 23:05:12 2018 +0800
+
+    >  testkernel
+    161220070
+    linxinye
+    Linux Debian 4.9.0-5-686-pae #1 SMP Debian 4.9.65-3+deb9u2 (2018-01-04) i686 GNU/Linux
+     23:05:12 up  7:46,  1 user,  load average: 2.11, 1.02, 0.68
+    7ebac4b4a329f89bde1e085e7892517e9e3a2953
+
+:000000 100755 0000000... 5da6d84... A	kernel/kernel
+:000000 100755 0000000... a251918... A	kernel/kernel.img
+:000000 100755 0000000... 35bd0e6... A	nemu/nemu
+:000000 100755 0000000... 2eaca06... A	testcase/src/add
+:000000 100755 0000000... a68d388... A	testcase/src/add-longlong
+:000000 100755 0000000... c0ae809... A	testcase/src/bit
+:000000 100755 0000000... aa82c0c... A	testcase/src/bubble-sort
+:000000 100755 0000000... e99ab21... A	testcase/src/echo
+:000000 100755 0000000... 2038c38... A	testcase/src/fact
+:000000 100755 0000000... 5643ee0... A	testcase/src/fib
+:000000 100755 0000000... 4578d03... A	testcase/src/gotbaha
+:000000 100755 0000000... 89feed6... A	testcase/src/hello-inline
+:000000 100755 0000000... 9675162... A	testcase/src/hello-str
+:000000 100755 0000000... 21f11a5... A	testcase/src/if-else
+:000000 100755 0000000... c43d7c3... A	testcase/src/leap-year
+:000000 100755 0000000... ae97dca... A	testcase/src/matrix-mul
+:000000 100755 0000000... a4704c9... A	testcase/src/matrix-mul-small
+:000000 100755 0000000... e3b44f5... A	testcase/src/max
+:000000 100755 0000000... 6bff61e... A	testcase/src/min3
+:000000 100755 0000000... a4303a0... A	testcase/src/mov
+:000000 100755 0000000... 67a5232... A	testcase/src/mov-c
+:000000 100755 0000000... 185ca65... A	testcase/src/mov-cmp
+:000000 100755 0000000... ed962ea... A	testcase/src/mov-jcc
+:000000 100755 0000000... c6efd84... A	testcase/src/movsx
+:000000 100755 0000000... 75da9dd... A	testcase/src/mul-longlong
+:000000 100755 0000000... 988fd52... A	testcase/src/pascal
+:000000 100755 0000000... 8a2c751... A	testcase/src/prime
+:000000 100755 0000000... 64559dd... A	testcase/src/quick-sort
+:000000 100755 0000000... 2dd1f3e... A	testcase/src/select-sort
+:000000 100755 0000000... 3bc3ac3... A	testcase/src/shuixianhua
+:000000 100755 0000000... c89a445... A	testcase/src/string
+:000000 100755 0000000... 58f82d6... A	testcase/src/struct
+:000000 100755 0000000... 50be944... A	testcase/src/sub-longlong
+:000000 100755 0000000... 4cfdfd4... A	testcase/src/sum
+:000000 100755 0000000... f9ed9bf... A	testcase/src/test-float
+:000000 100755 0000000... 9c24ffd... A	testcase/src/wanshu
+
+commit 931d44496c91c4d83a8689d1ec50207be49af5f3
+Author: tracer-pa2017 <tracer@njuics.org>
+Date:   Wed Jan 31 23:04:53 2018 +0800
+
+    >  nemu
+    161220070
+    linxinye
+    Linux Debian 4.9.0-5-686-pae #1 SMP Debian 4.9.65-3+deb9u2 (2018-01-04) i686 GNU/Linux
+     23:04:53 up  7:46,  1 user,  load average: 1.26, 0.78, 0.60
+    d1571bcb14d66fcdab5ad27c9205ba065e3d2dea
+
+:000000 100644 0000000... cb05b34... A	.gitignore
+:000000 100644 0000000... eea43c0... A	.vscode/launch.json
+:000000 100755 0000000... d2f30de... A	Makefile
+:000000 100755 0000000... 2088e5c... A	Makefile.git
+:000000 100644 0000000... 6094563... A	"PA3\345\256\236\351\252\214\346\212\245\345\221\212.pdf"
+:000000 100644 0000000... 2ec99f0... A	"PA4\345\256\236\351\252\214\346\212\245\345\221\212.pdf"
+:000000 100644 0000000... 43822f3... A	README.md
+:000000 100755 0000000... 8dfc052... A	fox.sh
+:000000 100755 0000000... 59619dc... A	game/Makefile
+:000000 100644 0000000... 5d3d71d... A	game/game.s
+:000000 100755 0000000... 6ea95af... A	game/include/adt/linklist.h
+:000000 100755 0000000... 4147828... A	game/include/common.h
+:000000 100755 0000000... 1bda1c8... A	game/include/debug.h
+:000000 100755 0000000... e5f06e0... A	game/include/device/palette.h
+:000000 100755 0000000... 0692471... A	game/include/device/video.h
+:000000 100755 0000000... f40ddb5... A	game/include/game-common.h
+:000000 100755 0000000... 7f4d88d... A	game/include/x86.h
+:000000 100755 0000000... 124ed40... A	game/src/common/device/font.c
+:000000 100755 0000000... f49eec2... A	game/src/common/device/palette.c
+:000000 100755 0000000... 4000130... A	game/src/common/device/timer.c
+:000000 100755 0000000... 3792166... A	game/src/common/device/video.c
+:000000 100755 0000000... 679a477... A	game/src/common/lib/syscall.c
+:000000 100755 0000000... 4e42562... A	game/src/common/main.c
+:000000 100755 0000000... 2c2f4e7... A	game/src/nemu-pal/CREDITS.txt
+:000000 100755 0000000... c0b4590... A	game/src/nemu-pal/README.txt
+:000000 100755 0000000... 6320a63... A	game/src/nemu-pal/battle/battle.c
+:000000 100755 0000000... d2c8a2b... A	game/src/nemu-pal/battle/fight.c
+:000000 100755 0000000... f072ca5... A	game/src/nemu-pal/device/input.c
+:000000 100755 0000000... d3181f7... A	game/src/nemu-pal/device/palette.c
+:000000 100755 0000000... 854b853... A	game/src/nemu-pal/device/video.c
+:000000 100755 0000000... 01a9804... A	game/src/nemu-pal/game/game.c
+:000000 100755 0000000... bbfd063... A	game/src/nemu-pal/game/play.c
+:000000 100755 0000000... 30980b9... A	game/src/nemu-pal/game/script.c
+:000000 100755 0000000... 0e90c87... A	game/src/nemu-pal/global/global.c
+:000000 100755 0000000... ffa3320... A	game/src/nemu-pal/global/palcommon.c
+:000000 100755 0000000... f85d723... A	game/src/nemu-pal/global/res.c
+:000000 100755 0000000... fc393b0... A	game/src/nemu-pal/gpl.txt
+:000000 100755 0000000... 63d63e5... A	game/src/nemu-pal/hal/keyboard.c
+:000000 100755 0000000... b0ee0a1... A	game/src/nemu-pal/hal/timer.c
+:000000 100755 0000000... 99de946... A	game/src/nemu-pal/hal/video.c
+:000000 100755 0000000... 57ccd40... A	game/src/nemu-pal/include/_common.h
+:000000 100755 0000000... d6885d5... A	game/src/nemu-pal/include/ascii.h
+:000000 100755 0000000... 8daa24b... A	game/src/nemu-pal/include/battle.h
+:000000 100755 0000000... 3439f21... A	game/src/nemu-pal/include/big5font.h
+:000000 100755 0000000... ef1f6c7... A	game/src/nemu-pal/include/ending.h
+:000000 100755 0000000... 163b329... A	game/src/nemu-pal/include/fight.h
+:000000 100755 0000000... ea310e8... A	game/src/nemu-pal/include/font.h
+:000000 100755 0000000... 736f1f4... A	game/src/nemu-pal/include/game.h
+:000000 100755 0000000... 9b98ea8... A	game/src/nemu-pal/include/gbfont.h
+:000000 100755 0000000... a4c29c0... A	game/src/nemu-pal/include/getopt.h
+:000000 100755 0000000... d428d58... A	game/src/nemu-pal/include/global.h
+:000000 100755 0000000... 79cdbfb... A	game/src/nemu-pal/include/hal.h
+:000000 100755 0000000... 51a186f... A	game/src/nemu-pal/include/input.h
+:000000 100755 0000000... d60ca44... A	game/src/nemu-pal/include/itemmenu.h
+:000000 100755 0000000... 79072cd... A	game/src/nemu-pal/include/magicmenu.h
+:000000 100755 0000000... f351c1c... A	game/src/nemu-pal/include/main.h
+:000000 100755 0000000... 089afc4... A	game/src/nemu-pal/include/main_PSP.h
+:000000 100755 0000000... 5145e9a... A	game/src/nemu-pal/include/map.h
+:000000 100755 0000000... 071bb1f... A	game/src/nemu-pal/include/midi.h
+:000000 100755 0000000... ce68c01... A	game/src/nemu-pal/include/palcommon.h
+:000000 100755 0000000... b386497... A	game/src/nemu-pal/include/palette.h
+:000000 100755 0000000... b180a35... A	game/src/nemu-pal/include/play.h
+:000000 100755 0000000... f23c5a2... A	game/src/nemu-pal/include/res.h
+:000000 100755 0000000... 2b9fd84... A	game/src/nemu-pal/include/rixplay.h
+:000000 100755 0000000... 420848d... A	game/src/nemu-pal/include/rngplay.h
+:000000 100755 0000000... f6f0f02... A	game/src/nemu-pal/include/scene.h
+:000000 100755 0000000... 06ef5ee... A	game/src/nemu-pal/include/script.h
+:000000 100755 0000000... 5ac5fd9... A	game/src/nemu-pal/include/sound.h
+:000000 100755 0000000... 37928a1... A	game/src/nemu-pal/include/text.h
+:000000 100755 0000000... 9097bc6... A	game/src/nemu-pal/include/ui.h
+:000000 100755 0000000... efc155a... A	game/src/nemu-pal/include/uibattle.h
+:000000 100755 0000000... 6dc6d15... A	game/src/nemu-pal/include/uigame.h
+:000000 100755 0000000... 2b2425f... A	game/src/nemu-pal/include/util.h
+:000000 100755 0000000... 94103ee... A	game/src/nemu-pal/include/video.h
+:000000 100755 0000000... b9261ba... A	game/src/nemu-pal/main.c
+:000000 100755 0000000... 10d7185... A	game/src/nemu-pal/misc/ending.c
+:000000 100755 0000000... 07d0217... A	game/src/nemu-pal/misc/rngplay.c
+:000000 100755 0000000... ddbeb5d... A	game/src/nemu-pal/misc/util.c
+:000000 100755 0000000... 3dfdba5... A	game/src/nemu-pal/misc/yj1.c
+:000000 100755 0000000... 545eb27... A	game/src/nemu-pal/scene/map.c
+:000000 100755 0000000... cf8c044... A	game/src/nemu-pal/scene/scene.c
+:000000 100755 0000000... 7d9fa95... A	game/src/nemu-pal/ui/font.c
+:000000 100755 0000000... 2164fd6... A	game/src/nemu-pal/ui/itemmenu.c
+:000000 100755 0000000... 282bbe2... A	game/src/nemu-pal/ui/magicmenu.c
+:000000 100755 0000000... c6072cd... A	game/src/nemu-pal/ui/text.c
+:000000 100755 0000000... c90f094... A	game/src/nemu-pal/ui/ui.c
+:000000 100755 0000000... 7eb5fb2... A	game/src/nemu-pal/ui/uibattle.c
+:000000 100755 0000000... fa30835... A	game/src/nemu-pal/ui/uigame.c
+:000000 100755 0000000... 556d696... A	game/src/nemu-pal/unuse/midi.c
+:000000 100755 0000000... be86b79... A	game/src/nemu-pal/unuse/rixplay.c
+:000000 100755 0000000... 6384bcb... A	game/src/nemu-pal/unuse/sdl.c
+:000000 100755 0000000... 30c1dac... A	game/src/nemu-pal/unuse/sound.c
+:000000 100755 0000000... 70d9253... A	game/src/typing/draw.c
+:000000 100755 0000000... 9d05bbc... A	game/src/typing/effect.c
+:000000 100755 0000000... 798d719... A	game/src/typing/game.c
+:000000 100755 0000000... 8f20f1e... A	game/src/typing/include/game.h
+:000000 100755 0000000... bc619d8... A	game/src/typing/keyboard.c
+:000000 100644 0000000... 73c5dbe... A	git_log.txt
+:000000 100644 0000000... e80ba2a... A	git_log_fin.txt
+:000000 100644 0000000... 5f7d5f5... A	git_log_pre.txt
+:000000 100644 0000000... 7c74f0c... A	git_log_tmp.txt
+:000000 100755 0000000... 2edc4b5... A	hamster.sh
+:000000 100644 0000000... 6094563... A	"include/PA3\345\256\236\351\252\214\346\212\245\345\221\212.pdf"
+:000000 100755 0000000... aa29ee7... A	include/config.h
+:000000 100755 0000000... c5597b3... A	include/newlib/include/_ansi.h
+:000000 100755 0000000... 271644e... A	include/newlib/include/_syslist.h
+:000000 100755 0000000... 2ea0fd9... A	include/newlib/include/alloca.h
+:000000 100755 0000000... ac2e4ca... A	include/newlib/include/ar.h
+:000000 100755 0000000... 02c9adb... A	include/newlib/include/argz.h
+:000000 100755 0000000... 91bb040... A	include/newlib/include/assert.h
+:000000 100755 0000000... 969b20e... A	include/newlib/include/complex.h
+:000000 100755 0000000... 56ad5ab... A	include/newlib/include/ctype.h
+:000000 100755 0000000... 6fefc03... A	include/newlib/include/dirent.h
+:000000 100755 0000000... 9bb6a81... A	include/newlib/include/envlock.h
+:000000 100755 0000000... e6a31c3... A	include/newlib/include/envz.h
+:000000 100755 0000000... 7cc2ca8... A	include/newlib/include/errno.h
+:000000 100755 0000000... 95eea5f... A	include/newlib/include/fastmath.h
+:000000 100755 0000000... 86a9167... A	include/newlib/include/fcntl.h
+:000000 100755 0000000... 06311fc... A	include/newlib/include/fnmatch.h
+:000000 100755 0000000... e12d253... A	include/newlib/include/getopt.h
+:000000 100755 0000000... 7a300e6... A	include/newlib/include/glob.h
+:000000 100755 0000000... 1273e39... A	include/newlib/include/grp.h
+:000000 100755 0000000... 4c023e9... A	include/newlib/include/iconv.h
+:000000 100755 0000000... 0b06fb7... A	include/newlib/include/ieeefp.h
+:000000 100755 0000000... 1631e21... A	include/newlib/include/inttypes.h
+:000000 100755 0000000... 9040ade... A	include/newlib/include/langinfo.h
+:000000 100755 0000000... abfab0e... A	include/newlib/include/libgen.h
+:000000 100755 0000000... 190f1f7... A	include/newlib/include/limits.h
+:000000 100755 0000000... cbd658e... A	include/newlib/include/locale.h
+:000000 100755 0000000... 47986d2... A	include/newlib/include/machine/_default_types.h
+:000000 100755 0000000... 18f96d5... A	include/newlib/include/machine/_types.h
+:000000 100755 0000000... 737b6d0... A	include/newlib/include/machine/ansi.h
+:000000 100755 0000000... 07ebc8f... A	include/newlib/include/machine/endian.h
+:000000 100755 0000000... b13befa... A	include/newlib/include/machine/fastmath.h
+:000000 100755 0000000... 042e7f4... A	include/newlib/include/machine/ieeefp.h
+:000000 100755 0000000... fdada9e... A	include/newlib/include/machine/malloc.h
+:000000 100755 0000000... bdf8bf7... A	include/newlib/include/machine/param.h
+:000000 100755 0000000... 6ca5e65... A	include/newlib/include/machine/setjmp-dj.h
+:000000 100755 0000000... 73ccd94... A	include/newlib/include/machine/setjmp.h
+:000000 100755 0000000... fa3f3a1... A	include/newlib/include/machine/stdlib.h
+:000000 100755 0000000... 41fd459... A	include/newlib/include/machine/termios.h
+:000000 100755 0000000... 06e2ccf... A	include/newlib/include/machine/time.h
+:000000 100755 0000000... 40a75fa... A	include/newlib/include/machine/types.h
+:000000 100755 0000000... 41b5efd... A	include/newlib/include/malloc.h
+:000000 100755 0000000... 606fecf... A	include/newlib/include/math.h
+:000000 100755 0000000... d4fffb1... A	include/newlib/include/newlib.h
+:000000 100755 0000000... b1c70f5... A	include/newlib/include/paths.h
+:000000 100755 0000000... 3640da2... A	include/newlib/include/pthread.h
+:000000 100755 0000000... 1526abf... A	include/newlib/include/pwd.h
+:000000 100755 0000000... 861be71... A	include/newlib/include/reent.h
+:000000 100755 0000000... 8cf144b... A	include/newlib/include/regdef.h
+:000000 100755 0000000... fa3e268... A	include/newlib/include/regex.h
+:000000 100755 0000000... df77a93... A	include/newlib/include/rpc/types.h
+:000000 100755 0000000... 4f93bf3... A	include/newlib/include/rpc/xdr.h
+:000000 100755 0000000... a3f58ac... A	include/newlib/include/sched.h
+:000000 100755 0000000... ed321b0... A	include/newlib/include/search.h
+:000000 100755 0000000... c958d90... A	include/newlib/include/setjmp.h
+:000000 100755 0000000... 8c50a2e... A	include/newlib/include/signal.h
+:000000 100755 0000000... 5a6692f... A	include/newlib/include/spawn.h
+:000000 100755 0000000... 09c0cf7... A	include/newlib/include/stdatomic.h
+:000000 100755 0000000... 643b969... A	include/newlib/include/stdint.h
+:000000 100755 0000000... c2418fa... A	include/newlib/include/stdio.h
+:000000 100755 0000000... a830c88... A	include/newlib/include/stdio_ext.h
+:000000 100755 0000000... ef21866... A	include/newlib/include/stdlib.h
+:000000 100755 0000000... 6325b46... A	include/newlib/include/string.h
+:000000 100755 0000000... 131d81d... A	include/newlib/include/strings.h
+:000000 100755 0000000... 1884136... A	include/newlib/include/sys/_default_fcntl.h
+:000000 100755 0000000... 07bc276... A	include/newlib/include/sys/_types.h
+:000000 100755 0000000... a5e613c... A	include/newlib/include/sys/cdefs.h
+:000000 100755 0000000... 0de3ffb... A	include/newlib/include/sys/config.h
+:000000 100755 0000000... 96314fb... A	include/newlib/include/sys/custom_file.h
+:000000 100755 0000000... 220150d... A	include/newlib/include/sys/dir.h
+:000000 100755 0000000... a3fb5c0... A	include/newlib/include/sys/dirent.h
+:000000 100755 0000000... c93b250... A	include/newlib/include/sys/errno.h
+:000000 100755 0000000... be85f40... A	include/newlib/include/sys/fcntl.h
+:000000 100755 0000000... 02fa1eb... A	include/newlib/include/sys/features.h
+:000000 100755 0000000... 58d4fac... A	include/newlib/include/sys/file.h
+:000000 100755 0000000... 09ea183... A	include/newlib/include/sys/iconvnls.h
+:000000 100755 0000000... 9075e35... A	include/newlib/include/sys/lock.h
+:000000 100755 0000000... ef203d3... A	include/newlib/include/sys/param.h
+:000000 100755 0000000... 4bc7dac... A	include/newlib/include/sys/queue.h
+:000000 100755 0000000... ce5b3ed... A	include/newlib/include/sys/reent.h
+:000000 100755 0000000... eb82755... A	include/newlib/include/sys/resource.h
+:000000 100755 0000000... bed14bf... A	include/newlib/include/sys/sched.h
+:000000 100755 0000000... 3d6ba08... A	include/newlib/include/sys/signal.h
+:000000 100755 0000000... dbd85ee... A	include/newlib/include/sys/stat.h
+:000000 100755 0000000... 0918fe1... A	include/newlib/include/sys/stdio.h
+:000000 100755 0000000... ceedf4b... A	include/newlib/include/sys/string.h
+:000000 100755 0000000... ba9dbd6... A	include/newlib/include/sys/syslimits.h
+:000000 100755 0000000... 1932580... A	include/newlib/include/sys/time.h
+:000000 100755 0000000... 0a2c3de... A	include/newlib/include/sys/timeb.h
+:000000 100755 0000000... 927812c... A	include/newlib/include/sys/times.h
+:000000 100755 0000000... ed33e0a... A	include/newlib/include/sys/types.h
+:000000 100755 0000000... d85195f... A	include/newlib/include/sys/unistd.h
+:000000 100755 0000000... 5e937f1... A	include/newlib/include/sys/utime.h
+:000000 100755 0000000... 73fe372... A	include/newlib/include/sys/wait.h
+:000000 100755 0000000... 07b06dd... A	include/newlib/include/tar.h
+:000000 100755 0000000... ee1820c... A	include/newlib/include/termios.h
+:000000 100755 0000000... f9c8311... A	include/newlib/include/tgmath.h
+:000000 100755 0000000... b91b039... A	include/newlib/include/time.h
+:000000 100755 0000000... 0040752... A	include/newlib/include/unctrl.h
+:000000 100755 0000000... f9fca84... A	include/newlib/include/unistd.h
+:000000 100755 0000000... 652891a... A	include/newlib/include/utime.h
+:000000 100755 0000000... 88cf6f8... A	include/newlib/include/utmp.h
+:000000 100755 0000000... cdc8571... A	include/newlib/include/wchar.h
+:000000 100755 0000000... c72c9de... A	include/newlib/include/wctype.h
+:000000 100755 0000000... 1f09a64... A	include/newlib/include/wordexp.h
+:000000 100755 0000000... ce8a40e... A	include/newlib/libc.a
+:000000 100755 0000000... 7ddd886... A	include/trap.h
+:000000 100755 0000000... 0fdf968... A	kernel/Makefile
+:000000 100755 0000000... 6b8cff8... A	kernel/include/common.h
+:000000 100755 0000000... fdc49f4... A	kernel/include/debug.h
+:000000 100755 0000000... b96351d... A	kernel/include/memory.h
+:000000 100755 0000000... 36b0fd4... A	kernel/include/x86.h
+:000000 100755 0000000... f5c0ffa... A	kernel/include/x86/cpu.h
+:000000 100755 0000000... f74cb09... A	kernel/include/x86/io.h
+:000000 100755 0000000... 90875c4... A	kernel/include/x86/memory.h
+:000000 100644 0000000... a741640... A	kernel/kernel.s
+:000000 100755 0000000... 1344ea9... A	kernel/src/driver/ide/cache.c
+:000000 100755 0000000... 563f316... A	kernel/src/driver/ide/disk.c
+:000000 100755 0000000... 6345f8e... A	kernel/src/driver/ide/dma.c
+:000000 100755 0000000... d93ec28... A	kernel/src/driver/ide/dma.h
+:000000 100755 0000000... 3e535b5... A	kernel/src/driver/ide/ide.c
+:000000 100755 0000000... b64a8f5... A	kernel/src/elf/elf.c
+:000000 100755 0000000... 8fda08e... A	kernel/src/fs/fs.c
+:000000 100755 0000000... 86dc67c... A	kernel/src/irq/do_irq.S
+:000000 100755 0000000... 78f6020... A	kernel/src/irq/i8259.c
+:000000 100755 0000000... 33cf0c2... A	kernel/src/irq/idt.c
+:000000 100755 0000000... 8f7165e... A	kernel/src/irq/irq_handle.c
+:000000 100755 0000000... cedfd2f... A	kernel/src/lib/misc.c
+:000000 100755 0000000... 87e6149... A	kernel/src/lib/printk.c
+:000000 100755 0000000... ac1d528... A	kernel/src/lib/serial.c
+:000000 100755 0000000... 3409c35... A	kernel/src/main.c
+:000000 100755 0000000... 0bf305d... A	kernel/src/memory/kvm.c
+:000000 100755 0000000... 758fdd6... A	kernel/src/memory/mm.c
+:000000 100755 0000000... 37a80d9... A	kernel/src/memory/vmem.c
+:000000 100755 0000000... a8009b6... A	kernel/src/syscall/do_syscall.c
+:000000 100755 0000000... 2147328... A	kernel/start/start.S
+:000000 100644 0000000... 210b0b1... A	nemu/.nemu.S.swp
+:000000 100755 0000000... 3b9a626... A	nemu/Makefile
+:000000 100755 0000000... 2e4d178... A	nemu/include/cpu/alu.h
+:000000 100755 0000000... e647c77... A	nemu/include/cpu/cpu.h
+:000000 100755 0000000... 2e2607e... A	nemu/include/cpu/fpu.h
+:000000 100755 0000000... 885e707... A	nemu/include/cpu/instr.h
+:000000 100755 0000000... 6bd7de4... A	nemu/include/cpu/instr/flags.h
+:000000 100755 0000000... 6c9bb15... A	nemu/include/cpu/instr/group.h
+:000000 100755 0000000... 218e131... A	nemu/include/cpu/instr/jmp.h
+:000000 100755 0000000... 77858c7... A	nemu/include/cpu/instr/mov.h
+:000000 100755 0000000... b7ca8e8... A	nemu/include/cpu/instr/shift.h
+:000000 100755 0000000... 81fdf23... A	nemu/include/cpu/instr/special.h
+:000000 100755 0000000... d8ca5f2... A	nemu/include/cpu/instr/x87.h
+:000000 100755 0000000... f34db6e... A	nemu/include/cpu/instr_helper.h
+:000000 100755 0000000... 1e4217b... A	nemu/include/cpu/intr.h
+:000000 100755 0000000... 5250e17... A	nemu/include/cpu/modrm.h
+:000000 100755 0000000... 0d52701... A	nemu/include/cpu/operand.h
+:000000 100755 0000000... f9165a7... A	nemu/include/cpu/reg.h
+:000000 100755 0000000... 9db8eca... A	nemu/include/cpu/reg_fpu.h
+:000000 100755 0000000... 5d81e22... A	nemu/include/cpu/sib.h
+:000000 100755 0000000... dd18ab0... A	nemu/include/device/i8259_pic.h
+:000000 100755 0000000... b1b60cd... A	nemu/include/device/ide.h
+:000000 100755 0000000... 89ee35d... A	nemu/include/device/keyboard.h
+:000000 100755 0000000... abf78c3... A	nemu/include/device/mm_io.h
+:000000 100755 0000000... d39fe56... A	nemu/include/device/port_io.h
+:000000 100755 0000000... 592e4c4... A	nemu/include/device/sdl.h
+:000000 100755 0000000... 554f103... A	nemu/include/device/serial.h
+:000000 100755 0000000... 94a1ce9... A	nemu/include/device/timer.h
+:000000 100755 0000000... e0a8324... A	nemu/include/device/vga.h
+:000000 100755 0000000... 7c8a238... A	nemu/include/macro.h
+:000000 100644 0000000... 98848ef... A	nemu/include/memory/cache.h
+:000000 100755 0000000... b0e7103... A	nemu/include/memory/memory.h
+:000000 100755 0000000... 2c243e9... A	nemu/include/memory/mmu/page.h
+:000000 100755 0000000... b93fe5b... A	nemu/include/memory/mmu/segment.h
+:000000 100755 0000000... a6f5979... A	nemu/include/memory/mmu/tlb.h
+:000000 100755 0000000... 671945f... A	nemu/include/monitor/breakpoint.h
+:000000 100755 0000000... 08381cc... A	nemu/include/monitor/ui.h
+:000000 100755 0000000... cb98b1b... A	nemu/include/nemu.h
+:000000 100644 0000000... 31bf6fe... A	nemu/nemu.s
+:000000 100755 0000000... f38efb1... A	nemu/src/cpu/alu.c
+:000000 100755 0000000... b13a0b1... A	nemu/src/cpu/cpu.c
+:000000 100755 0000000... 9f16ebf... A	nemu/src/cpu/decode/debug.c
+:000000 100755 0000000... cf99b6b... A	nemu/src/cpu/decode/modrm.c
+:000000 100755 0000000... 83eb850... A	nemu/src/cpu/decode/opcode.c
+:000000 100755 0000000... 6bd1928... A	nemu/src/cpu/decode/operand.c
+:000000 100755 0000000... 346c982... A	nemu/src/cpu/decode/sib.c
+:000000 100755 0000000... 8e87534... A	nemu/src/cpu/fpu.c
+:000000 100644 0000000... 5fc9dde... A	nemu/src/cpu/instr/adc.c
+:000000 100644 0000000... 6ba60ba... A	nemu/src/cpu/instr/add.c
+:000000 100644 0000000... a976da7... A	nemu/src/cpu/instr/and.c
+:000000 100755 0000000... 42969f2... A	nemu/src/cpu/instr/bt.c
+:000000 100755 0000000... 7d69783... A	nemu/src/cpu/instr/cbw.c
+:000000 100644 0000000... 7be6ab9... A	nemu/src/cpu/instr/cli.c
+:000000 100755 0000000... 4868f91... A	nemu/src/cpu/instr/cltd.c
+:000000 100755 0000000... fb2f564... A	nemu/src/cpu/instr/cmov.c
+:000000 100755 0000000... e51abf3... A	nemu/src/cpu/instr/cmps.c
+:000000 100755 0000000... 3a56fcc... A	nemu/src/cpu/instr/data_size.c
+:000000 100644 0000000... 7a090ff... A	nemu/src/cpu/instr/dec.c
+:000000 100755 0000000... 23a20bc... A	nemu/src/cpu/instr/div.c
+:000000 100755 0000000... d343461... A	nemu/src/cpu/instr/flags.c
+:000000 100755 0000000... 7fedd44... A	nemu/src/cpu/instr/group.c
+:000000 100755 0000000... 7daa4f9... A	nemu/src/cpu/instr/hlt.c
+:000000 100755 0000000... 14f1823... A	nemu/src/cpu/instr/idiv.c
+:000000 100755 0000000... c0aeba0... A	nemu/src/cpu/instr/imul.c
+:000000 100644 0000000... dad56cb... A	nemu/src/cpu/instr/in.c
+:000000 100644 0000000... a0d7daa... A	nemu/src/cpu/instr/inc.c
+:000000 100644 0000000... f7d8f08... A	nemu/src/cpu/instr/int.c
+:000000 100755 0000000... 9637147... A	nemu/src/cpu/instr/inv.c
+:000000 100644 0000000... 0ab938f... A	nemu/src/cpu/instr/iret.c
+:000000 100755 0000000... f35d8e5... A	nemu/src/cpu/instr/jcc.c
+:000000 100755 0000000... 3f58411... A	nemu/src/cpu/instr/jmp.c
+:000000 100644 0000000... 603f7a0... A	nemu/src/cpu/instr/lgdt.c
+:000000 100644 0000000... 950fe69... A	nemu/src/cpu/instr/lidt.c
+:000000 100755 0000000... e85bdb2... A	nemu/src/cpu/instr/mov.c
+:000000 100755 0000000... e5a3170... A	nemu/src/cpu/instr/movs.c
+:000000 100755 0000000... 86de31b... A	nemu/src/cpu/instr/mul.c
+:000000 100644 0000000... 14db713... A	nemu/src/cpu/instr/neg.c
+:000000 100755 0000000... 8af4618... A	nemu/src/cpu/instr/nemu_trap.c
+:000000 100755 0000000... f943576... A	nemu/src/cpu/instr/nop.c
+:000000 100644 0000000... 308d9e5... A	nemu/src/cpu/instr/not.c
+:000000 100755 0000000... 144220c... A	nemu/src/cpu/instr/opcode_2_byte.c
+:000000 100644 0000000... 5535b60... A	nemu/src/cpu/instr/or.c
+:000000 100644 0000000... 6703094... A	nemu/src/cpu/instr/other.c
+:000000 100644 0000000... 32df515... A	nemu/src/cpu/instr/out.c
+:000000 100644 0000000... 9f5fe47... A	nemu/src/cpu/instr/pop.c
+:000000 100644 0000000... 011dfa8... A	nemu/src/cpu/instr/popa.c
+:000000 100644 0000000... a8c386d... A	nemu/src/cpu/instr/push.c
+:000000 100644 0000000... 10ec344... A	nemu/src/cpu/instr/pusha.c
+:000000 100755 0000000... 47c3185... A	nemu/src/cpu/instr/rep_repe.c
+:000000 100755 0000000... 55445be... A	nemu/src/cpu/instr/sar.c
+:000000 100644 0000000... 77f7b8b... A	nemu/src/cpu/instr/sbb.c
+:000000 100644 0000000... 1c61054... A	nemu/src/cpu/instr/set.c
+:000000 100755 0000000... 32b22f6... A	nemu/src/cpu/instr/setcc.c
+:000000 100755 0000000... b9f0acc... A	nemu/src/cpu/instr/shl.c
+:000000 100755 0000000... 6ccd62a... A	nemu/src/cpu/instr/shr.c
+:000000 100644 0000000... f4db6fc... A	nemu/src/cpu/instr/sti.c
+:000000 100755 0000000... 1e2e72a... A	nemu/src/cpu/instr/stos.c
+:000000 100644 0000000... 09ff8b2... A	nemu/src/cpu/instr/sub.c
+:000000 100644 0000000... e4f81bd... A	nemu/src/cpu/instr/test.c
+:000000 100755 0000000... 3fe2805... A	nemu/src/cpu/instr/x87.c
+:000000 100644 0000000... 5656bfa... A	nemu/src/cpu/instr/xor.c
+:000000 100755 0000000... ca24aa5... A	nemu/src/cpu/intr.c
+:000000 100755 0000000... f330134... A	nemu/src/cpu/reg.c
+:000000 100755 0000000... 7fdc721... A	nemu/src/cpu/test/alu_test.c
+:000000 100755 0000000... 54ff81e... A	nemu/src/cpu/test/fpu_test.c
+:000000 100755 0000000... b243b1d... A	nemu/src/device/dev/ide.c
+:000000 100755 0000000... 73541eb... A	nemu/src/device/dev/keyboard.c
+:000000 100755 0000000... 6150e16... A	nemu/src/device/dev/serial.c
+:000000 100755 0000000... bc99dc6... A	nemu/src/device/dev/timer.c
+:000000 100755 0000000... dcb1d58... A	nemu/src/device/dev/vga-palette.c
+:000000 100755 0000000... 026775d... A	nemu/src/device/dev/vga.c
+:000000 100755 0000000... fd734b5... A	nemu/src/device/i8259_pic.c
+:000000 100755 0000000... 523f38f... A	nemu/src/device/io/mm_io.c
+:000000 100755 0000000... 036c665... A	nemu/src/device/io/port_io.c
+:000000 100755 0000000... f87dfa1... A	nemu/src/device/sdl.c
+:000000 100755 0000000... 34a1f86... A	nemu/src/main.c
+:000000 100644 0000000... 77f8f0a... A	nemu/src/memory/cache.c
+:000000 100755 0000000... 1e3fec4... A	nemu/src/memory/memory.c
+:000000 100755 0000000... cc129b4... A	nemu/src/memory/mmu/page.c
+:000000 100755 0000000... 34b51dd... A	nemu/src/memory/mmu/segment.c
+:000000 100755 0000000... e918481... A	nemu/src/memory/mmu/tlb.c
+:000000 100755 0000000... 6bbff3b... A	nemu/src/monitor/breakpoint.c
+:000000 100755 0000000... c9ae1fb... A	nemu/src/monitor/elf.c
+:000000 100755 0000000... 8282346... A	nemu/src/monitor/expr.c
+:000000 100755 0000000... bc7d600... A	nemu/src/monitor/ui.c
+:000000 100755 0000000... 3381115... A	testcase/Makefile
+:000000 100755 0000000... e3856ac... A	testcase/src/add-longlong.c
+:000000 100755 0000000... a25f60b... A	testcase/src/add.c
+:000000 100755 0000000... d925473... A	testcase/src/bit.c
+:000000 100755 0000000... 5f2c02c... A	testcase/src/bubble-sort.c
+:000000 100755 0000000... 820e8a5... A	testcase/src/echo.c
+:000000 100755 0000000... 68de0e6... A	testcase/src/fact.c
+:000000 100755 0000000... 8a25122... A	testcase/src/fib.c
+:000000 100755 0000000... 440158f... A	testcase/src/gotbaha.c
+:000000 100755 0000000... c7a9147... A	testcase/src/hello-inline.c
+:000000 100755 0000000... c52da6d... A	testcase/src/hello-str.c
+:000000 100755 0000000... 57f9254... A	testcase/src/if-else.c
+:000000 100755 0000000... 3b93044... A	testcase/src/leap-year.c
+:000000 100755 0000000... 83a46d0... A	testcase/src/matrix-mul-small.c
+:000000 100755 0000000... fe19086... A	testcase/src/matrix-mul.c
+:000000 100755 0000000... 6c9e329... A	testcase/src/max.c
+:000000 100755 0000000... 50fdbc7... A	testcase/src/min3.c
+:000000 100755 0000000... 82acdf9... A	testcase/src/mov-c.c
+:000000 100644 0000000... e9f78d5... A	testcase/src/mov-c.s
+:000000 100755 0000000... 728c1ad... A	testcase/src/mov-cmp.S
+:000000 100755 0000000... 6c5806a... A	testcase/src/mov-jcc.c
+:000000 100755 0000000... 857fae6... A	testcase/src/mov.S
+:000000 100755 0000000... abf8010... A	testcase/src/movsx.c
+:000000 100755 0000000... 81318ff... A	testcase/src/mul-longlong.c
+:000000 100755 0000000... cb1fa9e... A	testcase/src/pascal.c
+:000000 100755 0000000... 75ea381... A	testcase/src/prime.c
+:000000 100755 0000000... 88166bc... A	testcase/src/quick-sort.c
+:000000 100755 0000000... 8722fc9... A	testcase/src/select-sort.c
+:000000 100755 0000000... 1265e7b... A	testcase/src/shuixianhua.c
+:000000 100755 0000000... 23a202f... A	testcase/src/string.c
+:000000 100755 0000000... eed0912... A	testcase/src/struct.c
+:000000 100755 0000000... 1fe4c4a... A	testcase/src/sub-longlong.c
+:000000 100755 0000000... 8abc9af... A	testcase/src/sum.c
+:000000 100755 0000000... 32e923d... A	testcase/src/test-float.c
+:000000 100755 0000000... d43ff0d... A	testcase/src/wanshu.c
+:000000 100755 0000000... 2ea4b95... A	testcase/start.S
